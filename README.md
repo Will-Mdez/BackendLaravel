@@ -64,3 +64,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+**Install Dependencies**: Navigate to the project directory and install the necessary dependencies using Composer.
+
+composer install
+
+
+**Configure Environment Variables**: Set up your environment variables such as database connection details, API keys, etc., in the `.env` file.
+
+**Run Migrations**: Execute database migrations to set up the database schema.
+
+php artisan migrate:fresh --seed
+
+**Start Development Server**: Run the Laravel development server.
+
+php artisan serve
